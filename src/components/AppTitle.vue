@@ -2,16 +2,14 @@
     // import
 
     export default{
-        name: "ExampleName"
+        name: "AppTitle"
     }
 </script>
 
 <template>
-    <h1>Hi I'm component</h1>
+    <h1 class="text-center fw-bold mt-5">La mia prima app con Vite!</h1>
 </template>
 
 <style scoped>
-    h1 {
-        color: red;
-    }
+
 </style>

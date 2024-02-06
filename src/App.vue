@@ -1,21 +1,20 @@
 <script>
-    import ExampleName from './components/ExampleName.vue'
+    import AppTitle from './components/AppTitle.vue'
+    import AppHero from './components/AppHero.vue'
 
     export default {
         components: {
-            ExampleName
+            AppTitle,
+            AppHero
         }
     }
 </script>
 
 <template>
-    <h1>Hello World</h1>
-
-    <ExampleName />
+    <AppTitle />
+    <AppHero />
 </template>
 
 <style>
-    h1 {
-        color: blue;
-    }
+
 </style>
